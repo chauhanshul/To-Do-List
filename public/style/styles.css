@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#E2F6CA;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    /* border: 5px solid black; */
+    box-sizing: border-box;
+    position: relative; 
+}
+.list{
+    background-color:antiquewhite;
+    height: 710px;
+    width: 40vw;
+    /* border: 5px solid black; */
+    box-sizing: border-box;
+    /* margin: auto; */
+    left: 30%;
+    position: absolute;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px grey;
+}
+.header{
+    /* border: 5px solid black; */
+    position: relative; 
+    top: 0;
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.work{
+    /* border: 1px solid black; */
+    position: absolute;
+    height: 40px;
+    width: 50%;
+    left: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    /* box-shadow: 2px 2px 2px  grey; */
+    background-color: #E2F6CA;
+    border: none;
+    padding: 2%;
+}
+.today{
+    /* border: 1px solid black; */
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    display: inline-block ;
+    box-sizing: border-box;
+    text-align: center;
+    background-color:antiquewhite;
+    border: none;
+    padding: 2%;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: blueviolet;
+}
+
+.box-shadow{
+    box-shadow: 2px 2px 2px  grey;
+}
+.bg-color{
+    background-color: aquamarine;
+}
+.bg-color2{
+    background-color: beige;
+}
+.display{
+    position: relative;
+    /* border: 2px solid black; */
+    height: 660px;
+
+}
+.add-button{
+    background-color: blueviolet;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    width: 80px; 
+    height: 80px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.li-element{
+    font-size: 1.5rem;
+    padding: 2% 2%;
+    background-color: hsla(90, 100%, 49%,0.2);
+    color: hsl(212, 100%, 26%);
+    box-sizing: border-box;
+    margin: 2%;
+}
+
+@media (max-width: 1020px) {
+    .list{
+        width: 100%;
+        left: 0;
+    }
+}

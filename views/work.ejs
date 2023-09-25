@@ -1,0 +1,11 @@
+<%- include("partials/header.ejs") %>
+<ul>
+    <%   if(locals.workList){ %>
+     <% for(var i=0;i<workList.length+1;i++) { %>
+       <li>
+         <%= workList[i] %>
+       </li>
+   <% } %>
+   <%  } %>
+   </ul>
+<%- include("partials/footer.ejs") %>

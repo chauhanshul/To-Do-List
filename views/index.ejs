@@ -1,0 +1,18 @@
+<%- include("partials/header.ejs") %>
+  
+
+        
+        <ul>
+         <%   if(locals.todayList){ %>
+          <% for(var i=0;i<todayList.length+1;i++) { %>
+            <li class="li-element">
+              <%= todayList[i] %>
+            </li>
+        <% } %>
+        <%  } %>
+        </ul>
+
+
+
+
+<%- include("partials/footer.ejs") %>
